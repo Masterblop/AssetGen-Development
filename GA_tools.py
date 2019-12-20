@@ -1313,28 +1313,204 @@ class GA_PT_Tools_Crack(bpy.types.Operator):
 			"release_confirm":False,
 			"use_accurate":False})
 
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(0.000760137, 0.000605941, 1.90648e-06), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={
+			"use_normal_flip":False,
+			"mirror":False},
+			TRANSFORM_OT_translate={
+			"value":(0.000760137, 0.000605941, 1.90648e-06),
+			"orient_type":'GLOBAL',
+			"orient_matrix":(
+				(1, 0, 0),
+				(0, 1, 0),
+				(0, 0, 1)),
+			"orient_matrix_type":'GLOBAL',
+			"constraint_axis":(False, False, False),
+			"mirror":False,
+			"use_proportional_edit":False,
+			"proportional_edit_falloff":'SMOOTH',
+			"proportional_size":1,
+			"use_proportional_connected":False,
+			"use_proportional_projected":False,
+			"snap":False,
+			"snap_target":'CLOSEST',
+			"snap_point":(0, 0, 0),
+			"snap_align":False,
+			"snap_normal":(0, 0, 0),
+			"gpencil_strokes":False,
+			"cursor_transform":False,
+			"texture_space":False,
+			"remove_on_cancel":False,
+			"release_confirm":False,
+			"use_accurate":False})
 
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(-8.21659e-07, 0.0155581, -0.00117957), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={
+			"use_normal_flip":False,
+			"mirror":False},
+			TRANSFORM_OT_translate={
+			"value":(-8.21659e-07, 0.0155581, -0.00117957),
+			"orient_type":'GLOBAL',
+			"orient_matrix":(
+				(1, 0, 0),
+				(0, 1, 0),
+				(0, 0, 1)),
+			"orient_matrix_type":'GLOBAL',
+			"constraint_axis":(False, False, False),
+			"mirror":False,
+			"use_proportional_edit":False,
+			"proportional_edit_falloff":'SMOOTH',
+			"proportional_size":1,
+			"use_proportional_connected":False,
+			"use_proportional_projected":False,
+			"snap":False,
+			"snap_target":'CLOSEST',
+			"snap_point":(0, 0, 0),
+			"snap_align":False,
+			"snap_normal":(0, 0, 0),
+			"gpencil_strokes":False,
+			"cursor_transform":False,
+			"texture_space":False,
+			"remove_on_cancel":False,
+			"release_confirm":False,
+			"use_accurate":False})
 
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(2.89395e-05, 0.0182741, -0.00165832), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={
+			"use_normal_flip":False,
+			"mirror":False},
+			TRANSFORM_OT_translate={
+			"value":(2.89395e-05, 0.0182741, -0.00165832),
+			"orient_type":'GLOBAL',
+			"orient_matrix":(
+				(1, 0, 0),
+				(0, 1, 0),
+				(0, 0, 1)),
+			"orient_matrix_type":'GLOBAL',
+			"constraint_axis":(False, False, False),
+			"mirror":False,
+			"use_proportional_edit":False,
+			"proportional_edit_falloff":'SMOOTH',
+			"proportional_size":1,
+			"use_proportional_connected":False,
+			"use_proportional_projected":False,
+			"snap":False,
+			"snap_target":'CLOSEST',
+			"snap_point":(0, 0, 0),
+			"snap_align":False,
+			"snap_normal":(0, 0, 0),
+			"gpencil_strokes":False,
+			"cursor_transform":False,
+			"texture_space":False,
+			"remove_on_cancel":False,
+			"release_confirm":False,
+			"use_accurate":False})
 
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(0.000399211, 0.0249536, -0.00217473), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={
+			"use_normal_flip":False,
+			"mirror":False},
+			TRANSFORM_OT_translate={
+			"value":(0.000399211, 0.0249536, -0.00217473),
+			"orient_type":'GLOBAL',
+			"orient_matrix":(
+				(1, 0, 0),
+				(0, 1, 0),
+				(0, 0, 1)),
+			"orient_matrix_type":'GLOBAL',
+			"constraint_axis":(False, False, False),
+			"mirror":False,
+			"use_proportional_edit":False,
+			"proportional_edit_falloff":'SMOOTH',
+			"proportional_size":1,
+			"use_proportional_connected":False,
+			"use_proportional_projected":False,
+			"snap":False,
+			"snap_target":'CLOSEST',
+			"snap_point":(0, 0, 0),
+			"snap_align":False,
+			"snap_normal":(0, 0, 0),
+			"gpencil_strokes":False,
+			"cursor_transform":False,
+			"texture_space":False,
+			"remove_on_cancel":False,
+			"release_confirm":False,
+			"use_accurate":False})
 
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(0.000492366, 0.0386664, -0.00316083), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={
+			"use_normal_flip":False,
+			"mirror":False},
+			TRANSFORM_OT_translate={
+			"value":(0.000492366, 0.0386664, -0.00316083),
+			"orient_type":'GLOBAL',
+			"orient_matrix":(
+				(1, 0, 0),
+				(0, 1, 0),
+				(0, 0, 1)),
+			"orient_matrix_type":'GLOBAL',
+			"constraint_axis":(False, False, False),
+			"mirror":False,
+			"use_proportional_edit":False,
+			"proportional_edit_falloff":'SMOOTH',
+			"proportional_size":1,
+			"use_proportional_connected":False,
+			"use_proportional_projected":False,
+			"snap":False,
+			"snap_target":'CLOSEST',
+			"snap_point":(0, 0, 0),
+			"snap_align":False,
+			"snap_normal":(0, 0, 0),
+			"gpencil_strokes":False,
+			"cursor_transform":False,
+			"texture_space":False,
+			"remove_on_cancel":False,
+			"release_confirm":False,
+			"use_accurate":False})
 
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(4.94388e-05, 0.0108993, -0.000300644), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+		bpy.ops.mesh.extrude_region_move(
+			MESH_OT_extrude_region={
+				"use_normal_flip":False,
+				"mirror":False},
+			TRANSFORM_OT_translate={
+				"value":(4.94388e-05, 0.0108993, -0.000300644),
+				"orient_type":'GLOBAL',
+				"orient_matrix":(
+					(1, 0, 0),
+					(0, 1, 0),
+					(0, 0, 1)),
+				"orient_matrix_type":'GLOBAL',
+				"constraint_axis":(False, False, False),
+				"mirror":False,
+				"use_proportional_edit":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"use_proportional_connected":False,
+				"use_proportional_projected":False,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"cursor_transform":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
 
 		bpy.ops.mesh.select_all(action = 'SELECT')
 		bpy.ops.mesh.edge_face_add()
-		bpy.ops.mesh.quads_convert_to_tris(quad_method='BEAUTY', ngon_method='BEAUTY')
+
+		bpy.ops.mesh.quads_convert_to_tris(
+			quad_method='BEAUTY',
+			ngon_method='BEAUTY')
+
 		bpy.ops.mesh.tris_convert_to_quads()
 
 		bpy.ops.object.mode_set(mode = 'OBJECT')
 
 		bpy.context.object.name = "tmpPart1"
 
-		bpy.ops.mesh.primitive_plane_add(size=2, enter_editmode=False, location=(0, 0, 0))
+		bpy.ops.mesh.primitive_plane_add(
+			size=2,
+			enter_editmode=False,
+			location=(0, 0, 0))
 
 		bpy.ops.object.mode_set(mode = 'EDIT')
 
@@ -1343,22 +1519,369 @@ class GA_PT_Tools_Crack(bpy.types.Operator):
 		bpy.ops.mesh.select_all(action = 'SELECT')
 		bpy.ops.mesh.merge(type='CENTER')
 
-		bpy.ops.transform.translate(value=(0.00172927, -1.19572e-10, -0.00793743), orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL', mirror=True, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1, use_proportional_connected=False, use_proportional_projected=False)
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(-4.94379e-05, -0.0108994, 0.000300643), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(-0.000492366, -0.0386664, 0.00316083), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(-0.000399211, -0.0249535, 0.00217473), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(-2.89395e-05, -0.0182741, 0.00165832), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(8.21659e-07, -0.0155581, 0.00117957), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(0.000558638, 0.000909664, 1.34708e-05), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(0.00364322, 0.0140618, -1.59717e-05), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(0.00498601, 0.0192433, -7.5071e-06), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(0.00663937, 0.026988, -3.09502e-06), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(0.00768523, 0.0376021, 1.43662e-06), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(0.000803819, 0.00954673, 1.44259e-05), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+		bpy.ops.transform.translate(
+			value=(0.00172927, -1.19572e-10, -0.00793743),
+			orient_type='GLOBAL',
+			orient_matrix=(
+				(1, 0, 0),
+				(0, 1, 0),
+				(0, 0, 1)),
+			orient_matrix_type='GLOBAL',
+			mirror=True,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1,
+			use_proportional_connected=False,
+			use_proportional_projected=False)
+
+		bpy.ops.mesh.extrude_region_move(
+			MESH_OT_extrude_region={
+				"use_normal_flip":False,
+				"mirror":False},
+			TRANSFORM_OT_translate={
+				"value":(-4.94379e-05, -0.0108994, 0.000300643),
+				"orient_type":'GLOBAL',
+				"orient_matrix":(
+					(1, 0, 0),
+					(0, 1, 0),
+					(0, 0, 1)),
+				"orient_matrix_type":'GLOBAL',
+				"constraint_axis":(False, False, False),
+				"mirror":False,
+				"use_proportional_edit":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"use_proportional_connected":False,
+				"use_proportional_projected":False,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"cursor_transform":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
+
+		bpy.ops.mesh.extrude_region_move(
+			MESH_OT_extrude_region={
+				"use_normal_flip":False,
+				"mirror":False},
+			TRANSFORM_OT_translate={
+				"value":(-0.000492366, -0.0386664, 0.00316083),
+				"orient_type":'GLOBAL',
+				"orient_matrix":(
+					(1, 0, 0),
+					(0, 1, 0),
+					(0, 0, 1)),
+				"orient_matrix_type":'GLOBAL',
+				"constraint_axis":(False, False, False),
+				"mirror":False,
+				"use_proportional_edit":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"use_proportional_connected":False,
+				"use_proportional_projected":False,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"cursor_transform":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
+
+		bpy.ops.mesh.extrude_region_move(
+			MESH_OT_extrude_region={
+				"use_normal_flip":False,
+				"mirror":False},
+			TRANSFORM_OT_translate={
+				"value":(-0.000399211, -0.0249535, 0.00217473),
+				"orient_type":'GLOBAL',
+				"orient_matrix":(
+					(1, 0, 0),
+					(0, 1, 0),
+					(0, 0, 1)),
+				"orient_matrix_type":'GLOBAL',
+				"constraint_axis":(False, False, False),
+				"mirror":False,
+				"use_proportional_edit":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"use_proportional_connected":False,
+				"use_proportional_projected":False,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"cursor_transform":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
+
+		bpy.ops.mesh.extrude_region_move(
+			MESH_OT_extrude_region={
+				"use_normal_flip":False,
+				"mirror":False},
+			TRANSFORM_OT_translate={
+				"value":(-2.89395e-05, -0.0182741, 0.00165832),
+				"orient_type":'GLOBAL',
+				"orient_matrix":(
+					(1, 0, 0),
+					(0, 1, 0),
+					(0, 0, 1)),
+				"orient_matrix_type":'GLOBAL',
+				"constraint_axis":(False, False, False),
+				"mirror":False,
+				"use_proportional_edit":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"use_proportional_connected":False,
+				"use_proportional_projected":False,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"cursor_transform":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
+
+		bpy.ops.mesh.extrude_region_move(
+			MESH_OT_extrude_region={
+				"use_normal_flip":False,
+				"mirror":False},
+			TRANSFORM_OT_translate={
+				"value":(8.21659e-07, -0.0155581, 0.00117957),
+				"orient_type":'GLOBAL',
+				"orient_matrix":(
+					(1, 0, 0),
+					(0, 1, 0),
+					(0, 0, 1)),
+				"orient_matrix_type":'GLOBAL',
+				"constraint_axis":(False, False, False),
+				"mirror":False,
+				"use_proportional_edit":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"use_proportional_connected":False,
+				"use_proportional_projected":False,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"cursor_transform":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
+
+		bpy.ops.mesh.extrude_region_move(
+			MESH_OT_extrude_region={
+				"use_normal_flip":False,
+				"mirror":False},
+			TRANSFORM_OT_translate={
+				"value":(0.000558638, 0.000909664, 1.34708e-05),
+				"orient_type":'GLOBAL',
+				"orient_matrix":(
+					(1, 0, 0),
+					(0, 1, 0),
+					(0, 0, 1)),
+				"orient_matrix_type":'GLOBAL',
+				"constraint_axis":(False, False, False),
+				"mirror":False,
+				"use_proportional_edit":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"use_proportional_connected":False,
+				"use_proportional_projected":False,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"cursor_transform":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
+
+		bpy.ops.mesh.extrude_region_move(
+			MESH_OT_extrude_region={
+				"use_normal_flip":False,
+				"mirror":False},
+			TRANSFORM_OT_translate={
+				"value":(0.00364322, 0.0140618, -1.59717e-05),
+				"orient_type":'GLOBAL',
+				"orient_matrix":(
+					(1, 0, 0),
+					(0, 1, 0),
+					(0, 0, 1)),
+				"orient_matrix_type":'GLOBAL',
+				"constraint_axis":(False, False, False),
+				"mirror":False,
+				"use_proportional_edit":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"use_proportional_connected":False,
+				"use_proportional_projected":False,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"cursor_transform":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
+
+		bpy.ops.mesh.extrude_region_move(
+			MESH_OT_extrude_region={
+				"use_normal_flip":False,
+				"mirror":False},
+			TRANSFORM_OT_translate={
+				"value":(0.00498601, 0.0192433, -7.5071e-06),
+				"orient_type":'GLOBAL',
+				"orient_matrix":(
+					(1, 0, 0),
+					(0, 1, 0),
+					(0, 0, 1)),
+				"orient_matrix_type":'GLOBAL',
+				"constraint_axis":(False, False, False),
+				"mirror":False,
+				"use_proportional_edit":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"use_proportional_connected":False,
+				"use_proportional_projected":False,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"cursor_transform":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
+
+		bpy.ops.mesh.extrude_region_move(
+			MESH_OT_extrude_region={
+				"use_normal_flip":False,
+				"mirror":False},
+			TRANSFORM_OT_translate={
+				"value":(0.00663937, 0.026988, -3.09502e-06),
+				"orient_type":'GLOBAL',
+				"orient_matrix":(
+					(1, 0, 0),
+					(0, 1, 0),
+					(0, 0, 1)),
+				"orient_matrix_type":'GLOBAL',
+				"constraint_axis":(False, False, False),
+				"mirror":False,
+				"use_proportional_edit":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"use_proportional_connected":False,
+				"use_proportional_projected":False,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"cursor_transform":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
+
+		bpy.ops.mesh.extrude_region_move(
+			MESH_OT_extrude_region={
+				"use_normal_flip":False,
+				"mirror":False},
+			TRANSFORM_OT_translate={
+				"value":(0.00768523, 0.0376021, 1.43662e-06),
+				"orient_type":'GLOBAL',
+				"orient_matrix":(
+					(1, 0, 0),
+					(0, 1, 0),
+					(0, 0, 1)),
+				"orient_matrix_type":'GLOBAL',
+				"constraint_axis":(False, False, False),
+				"mirror":False,
+				"use_proportional_edit":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"use_proportional_connected":False,
+				"use_proportional_projected":False,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"cursor_transform":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
+
+		bpy.ops.mesh.extrude_region_move(
+			MESH_OT_extrude_region={
+				"use_normal_flip":False,
+				"mirror":False},
+			TRANSFORM_OT_translate={
+				"value":(0.000803819, 0.00954673, 1.44259e-05),
+				"orient_type":'GLOBAL',
+				"orient_matrix":(
+					(1, 0, 0),
+					(0, 1, 0),
+					(0, 0, 1)),
+				"orient_matrix_type":'GLOBAL',
+				"constraint_axis":(False, False, False),
+				"mirror":False,
+				"use_proportional_edit":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"use_proportional_connected":False,
+				"use_proportional_projected":False,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"cursor_transform":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
 
 		bpy.ops.mesh.select_all(action = 'SELECT')
 		bpy.ops.mesh.edge_face_add()
-		bpy.ops.mesh.quads_convert_to_tris(quad_method='BEAUTY', ngon_method='BEAUTY')
+
+		bpy.ops.mesh.quads_convert_to_tris(
+			quad_method='BEAUTY',
+			ngon_method='BEAUTY')
+
 		bpy.ops.mesh.tris_convert_to_quads()
 
 		bpy.ops.object.mode_set(mode = 'OBJECT')
@@ -1385,8 +1908,67 @@ class GA_PT_Tools_Crack(bpy.types.Operator):
 		bpy.ops.mesh.select_non_manifold()
 		bpy.ops.mesh.edge_face_add()
 
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(-1.61627e-16, -8.03529e-16, 0.000704463), "orient_type":'NORMAL', "orient_matrix":((-0.979746, -0.200243, -3.54901e-10), (0.200243, -0.979746, 7.13482e-11), (-3.62e-10, -1.16347e-12, 1)), "orient_matrix_type":'NORMAL', "constraint_axis":(False, False, True), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(-1.61627e-16, -8.03529e-16, 0.000704463), "orient_type":'NORMAL', "orient_matrix":((-0.979746, -0.200243, -3.54901e-10), (0.200243, -0.979746, 7.13482e-11), (-3.62e-10, -1.16347e-12, 1)), "orient_matrix_type":'NORMAL', "constraint_axis":(False, False, True), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+		bpy.ops.mesh.extrude_region_move(
+			MESH_OT_extrude_region={
+				"use_normal_flip":False,
+				"mirror":False},
+			TRANSFORM_OT_translate={
+				"value":(-1.61627e-16, -8.03529e-16, 0.000704463),
+				"orient_type":'NORMAL',
+				"orient_matrix":(
+					(-0.979746, -0.200243, -3.54901e-10),
+					(0.200243, -0.979746, 7.13482e-11),
+					(-3.62e-10, -1.16347e-12, 1)),
+				"orient_matrix_type":'NORMAL',
+				"constraint_axis":(False, False, True),
+				"mirror":False,
+				"use_proportional_edit":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"use_proportional_connected":False,
+				"use_proportional_projected":False,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"cursor_transform":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
+
+		bpy.ops.mesh.extrude_region_move(
+			MESH_OT_extrude_region={
+				"use_normal_flip":False,
+				"mirror":False},
+			TRANSFORM_OT_translate={
+				"value":(-1.61627e-16, -8.03529e-16, 0.000704463),
+				"orient_type":'NORMAL',
+				"orient_matrix":(
+					(-0.979746, -0.200243, -3.54901e-10),
+					(0.200243, -0.979746, 7.13482e-11),
+					(-3.62e-10, -1.16347e-12, 1)),
+				"orient_matrix_type":'NORMAL',
+				"constraint_axis":(False, False, True),
+				"mirror":False,
+				"use_proportional_edit":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"use_proportional_connected":False,
+				"use_proportional_projected":False,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"cursor_transform":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
 
 		bpy.ops.mesh.select_all(action = 'SELECT')
 		bpy.ops.object.mode_set(mode = 'OBJECT')
@@ -1395,8 +1977,25 @@ class GA_PT_Tools_Crack(bpy.types.Operator):
 		bpy.context.object.modifiers["Subdivision"].levels = 2
 		bpy.ops.object.modifier_apply(apply_as='DATA', modifier="Subdivision")
 
-		bpy.ops.transform.resize(value=(2, 2, 5), orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL', mirror=True, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1, use_proportional_connected=False, use_proportional_projected=False)
-		bpy.ops.object.transform_apply(location=False, rotation=False, scale=True)
+		bpy.ops.transform.resize(
+			value=(2, 2, 5),
+			orient_type='GLOBAL',
+			orient_matrix=(
+				(1, 0, 0),
+				(0, 1, 0),
+				(0, 0, 1)),
+			orient_matrix_type='GLOBAL',
+			mirror=True,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1,
+			use_proportional_connected=False,
+			use_proportional_projected=False)
+
+		bpy.ops.object.transform_apply(
+			location=False,
+			rotation=False,
+			scale=True)
 
 		bpy.ops.object.origin_set(type='ORIGIN_CURSOR')
 		bpy.ops.object.origin_set(type='GEOMETRY_ORIGIN')
@@ -1412,8 +2011,16 @@ class GA_PT_Tools_ExtrudedCurve(bpy.types.Operator):
 
 	def execute(self, context):
 
-		bpy.ops.curve.primitive_nurbs_path_add(radius=1, enter_editmode=False, location=(0, 0, 0))
-		bpy.ops.curve.primitive_nurbs_path_add(radius=0.5, enter_editmode=False, location=(0.00421777, -0.35954, 1.70905))
+		bpy.ops.curve.primitive_nurbs_path_add(
+			radius=1,
+			enter_editmode=False,
+			location=(0, 0, 0))
+
+		bpy.ops.curve.primitive_nurbs_path_add(
+			radius=0.5,
+			enter_editmode=False,
+			location=(0.00421777, -0.35954, 1.70905))
+
 		bpy.context.object.data.bevel_depth = 0.05
 		bpy.context.object.data.bevel_resolution = 6
 		bpy.context.object.data.resolution_u = 20
@@ -1433,7 +2040,10 @@ class GA_PT_Tools_ExtrudedMesh(bpy.types.Operator):
 
 	def execute(self, context):
 
-		bpy.ops.mesh.primitive_plane_add(size=2, enter_editmode=False, location=(0, 0, 0))
+		bpy.ops.mesh.primitive_plane_add(
+			size=2,
+			enter_editmode=False,
+			location=(0, 0, 0))
 
 		bpy.context.object.name = "motif"
 
@@ -1461,7 +2071,14 @@ class GA_PT_Tools_ExtrudedMesh(bpy.types.Operator):
 
 		bpy.ops.mesh.select_all(action = 'SELECT')
 
-		bpy.ops.transform.skin_resize(value=(0.25, 0.25, 0.25), orient_type='GLOBAL', mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
+		bpy.ops.transform.skin_resize(
+			value=(0.25, 0.25, 0.25),
+			orient_type='GLOBAL',
+			mirror=False,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
+
 		bpy.ops.object.skin_root_mark()
 
 		bpy.context.object.name = "Extruded Mesh"
@@ -1478,7 +2095,10 @@ class GA_PT_Tools_Hair(bpy.types.Operator):
 
 		# Hair Strand
 
-		bpy.ops.curve.primitive_bezier_curve_add(radius=1, enter_editmode=False, location=(0, 0, 0))
+		bpy.ops.curve.primitive_bezier_curve_add(
+			radius=1,
+			enter_editmode=False,
+			location=(0, 0, 0))
 
 
 		bpy.ops.object.origin_set(type='ORIGIN_CURSOR')
@@ -1486,19 +2106,69 @@ class GA_PT_Tools_Hair(bpy.types.Operator):
 
 		bpy.ops.object.mode_set(mode = 'EDIT')
 
-		bpy.ops.transform.translate(value=(1, 0, 0), constraint_axis=(True, False, False), orient_type='GLOBAL', mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
-		bpy.ops.transform.rotate(value=-1.5708, orient_axis='Z', orient_type='VIEW', orient_matrix=((-4.93038e-32, -1, -2.22045e-16), (-2.22045e-16, -4.93038e-32, -1), (-1, -2.22045e-16, -4.93038e-32)), orient_matrix_type='VIEW', mirror=True, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
+		bpy.ops.transform.translate(
+			value=(1, 0, 0),
+			constraint_axis=(True, False, False),
+			orient_type='GLOBAL',
+			mirror=False,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
+
+		bpy.ops.transform.rotate(
+			value=-1.5708,
+			orient_axis='Z',
+			orient_type='VIEW',
+			orient_matrix=(
+				(-4.93038e-32, -1, -2.22045e-16),
+				(-2.22045e-16, -4.93038e-32, -1),
+				(-1, -2.22045e-16, -4.93038e-32)),
+			orient_matrix_type='VIEW',
+			mirror=True,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
 
 		bpy.ops.object.mode_set(mode = 'OBJECT')
 
-		bpy.ops.transform.resize(value=(0.15, 0.15, 0.15), orient_type='GLOBAL', mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
-		bpy.ops.object.transform_apply(location=False, rotation=False, scale=True)
+		bpy.ops.transform.resize(
+			value=(0.15, 0.15, 0.15),
+			orient_type='GLOBAL',
+			mirror=False,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
+
+		bpy.ops.object.transform_apply(
+			location=False,
+			rotation=False,
+			scale=True)
 
 		bpy.ops.object.mode_set(mode = 'EDIT')
 		bpy.ops.curve.de_select_first()
-		bpy.ops.transform.rotate(value=1.5708, orient_axis='Z', orient_type='VIEW', orient_matrix=((-1, -0, 0), (0, 1.34359e-07, -1), (-0, 1, 1.34359e-07)), orient_matrix_type='VIEW', mirror=True, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
 
-		bpy.ops.transform.translate(value=(-0.25, 0, -0.2), orient_type='GLOBAL', mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
+		bpy.ops.transform.rotate(
+			value=1.5708,
+			orient_axis='Z',
+			orient_type='VIEW',
+			orient_matrix=(
+				(-1, -0, 0),
+				(0, 1.34359e-07, -1),
+				(-0, 1, 1.34359e-07)),
+			orient_matrix_type='VIEW',
+			mirror=True,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
+
+		bpy.ops.transform.translate(
+			value=(-0.25, 0, -0.2),
+			orient_type='GLOBAL',
+			mirror=False,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
+
 		bpy.ops.object.mode_set(mode = 'OBJECT')
 
 		bpy.context.object.data.resolution_u = 64
@@ -1507,21 +2177,69 @@ class GA_PT_Tools_Hair(bpy.types.Operator):
 
 		# Hair Taper
 
-		bpy.ops.curve.primitive_bezier_curve_add(radius=1, enter_editmode=False, location=(0, 0, 0))
-		bpy.ops.transform.resize(value=(0.15, 0.15, 0.15), orient_type='VIEW', orient_matrix=((-0.410029, -0.911976, 0.0132648), (0.401743, -0.193644, -0.895045), (-0.818828, 0.361665, -0.445779)), orient_matrix_type='VIEW', mirror=True, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
+		bpy.ops.curve.primitive_bezier_curve_add(
+			radius=1,
+			enter_editmode=False,
+			location=(0, 0, 0))
+
+		bpy.ops.transform.resize(
+			value=(0.15, 0.15, 0.15),
+			orient_type='VIEW',
+			orient_matrix=(
+				(-0.410029, -0.911976, 0.0132648),
+				(0.401743, -0.193644, -0.895045),
+				(-0.818828, 0.361665, -0.445779)),
+			orient_matrix_type='VIEW',
+			mirror=True,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
+
 		bpy.context.object.location[1] = -0.8
 
 		bpy.ops.object.mode_set(mode = 'EDIT')
 
 		bpy.ops.curve.de_select_last()
-		bpy.ops.transform.rotate(value=0.610865, orient_axis='Z', orient_type='VIEW', orient_matrix=((-1, 0, -0), (0, -1, 0), (-0, 0, -1)), orient_matrix_type='VIEW', mirror=True, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
+		bpy.ops.transform.rotate(
+			value=0.610865,
+			orient_axis='Z',
+			orient_type='VIEW',
+			orient_matrix=(
+				(-1, 0, -0),
+				(0, -1, 0),
+				(-0, 0, -1)),
+			orient_matrix_type='VIEW',
+			mirror=True,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
 
-		bpy.ops.transform.translate(value=(0, 0.04, 0), constraint_axis=(False, True, False), orient_type='GLOBAL', mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
+		bpy.ops.transform.translate(
+			value=(0, 0.04, 0),
+			constraint_axis=(False, True, False),
+			orient_type='GLOBAL',
+			mirror=False,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
+
 		bpy.ops.curve.de_select_last()
 
-
 		bpy.ops.curve.de_select_first()
-		bpy.ops.transform.rotate(value=0.436332, orient_axis='Z', orient_type='VIEW', orient_matrix=((-1, 0, -0), (0, -1, -0), (-0, 0, -1)), orient_matrix_type='VIEW', mirror=True, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
+
+		bpy.ops.transform.rotate(
+			value=0.436332,
+			orient_axis='Z',
+			orient_type='VIEW',
+			orient_matrix=(
+				(-1, 0, -0),
+				(0, -1, -0),
+				(-0, 0, -1)),
+			orient_matrix_type='VIEW',
+			mirror=True,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
 
 
 		bpy.ops.object.mode_set(mode = 'OBJECT')
@@ -1529,16 +2247,42 @@ class GA_PT_Tools_Hair(bpy.types.Operator):
 
 		# Hair Bevel
 
-		bpy.ops.curve.primitive_bezier_circle_add(radius=1, enter_editmode=False, location=(0, 0, 0))
+		bpy.ops.curve.primitive_bezier_circle_add(
+			radius=1,
+			enter_editmode=False,
+			location=(0, 0, 0))
 
 		bpy.ops.object.mode_set(mode = 'EDIT')
 		bpy.ops.curve.handle_type_set(type='VECTOR')
-		bpy.ops.transform.resize(value=(0.1, 0.1, 0.1), orient_type='GLOBAL', mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
-		bpy.ops.transform.resize(value=(1, 0.35, 1), constraint_axis=(False, True, False), orient_type='GLOBAL', mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
+
+		bpy.ops.transform.resize(
+			value=(0.1, 0.1, 0.1),
+			orient_type='GLOBAL',
+			mirror=False,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
+
+		bpy.ops.transform.resize(
+			value=(1, 0.35, 1),
+			constraint_axis=(False, True, False),
+			orient_type='GLOBAL',
+			mirror=False,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
+
 		bpy.ops.curve.handle_type_set(type='AUTOMATIC')
 		bpy.ops.object.mode_set(mode = 'OBJECT')
 
-		bpy.ops.transform.translate(value=(0, -1, 0), constraint_axis=(False, True, False), orient_type='GLOBAL', mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
+		bpy.ops.transform.translate(
+			value=(0, -1, 0),
+			constraint_axis=(False, True, False),
+			orient_type='GLOBAL',
+			mirror=False,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
 
 		bpy.context.object.name = "HairBevel"
 
@@ -1563,12 +2307,44 @@ class GA_PT_Tools_RingCircle(bpy.types.Operator):
 
 	def execute(self, context):
 
-		bpy.ops.mesh.primitive_torus_add(location=(-0.00227314, -0.0087918, -0.013097), rotation=(0, 0, 0), major_segments=12, minor_segments=4, major_radius=1, minor_radius=0.3, abso_major_rad=1.25, abso_minor_rad=0.75)
+		bpy.ops.mesh.primitive_torus_add(
+			location=(-0.00227314, -0.0087918, -0.013097),
+			rotation=(0, 0, 0),
+			major_segments=12,
+			minor_segments=4,
+			major_radius=1,
+			minor_radius=0.3,
+			abso_major_rad=1.25,
+			abso_minor_rad=0.75)
 
-		bpy.ops.transform.rotate(value=-1.5708, orient_axis='Z', orient_type='VIEW', orient_matrix=((-4.93038e-32, -1, -2.22045e-16), (-2.22045e-16, -4.93038e-32, -1), (-1, -2.22045e-16, -4.93038e-32)), orient_matrix_type='VIEW', mirror=True, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1, use_proportional_connected=False, use_proportional_projected=False)
-		bpy.ops.transform.resize(value=(0.05, 0.05, 0.05), orient_type='GLOBAL', mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
+		bpy.ops.transform.rotate(
+			value=-1.5708,
+			orient_axis='Z',
+			orient_type='VIEW',
+			orient_matrix=(
+				(-4.93038e-32, -1, -2.22045e-16),
+				(-2.22045e-16, -4.93038e-32, -1),
+				(-1, -2.22045e-16, -4.93038e-32)),
+			orient_matrix_type='VIEW',
+			mirror=True,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1,
+			use_proportional_connected=False,
+			use_proportional_projected=False)
 
-		bpy.ops.object.transform_apply(location=False, rotation=True, scale=True)
+		bpy.ops.transform.resize(
+			value=(0.05, 0.05, 0.05),
+			orient_type='GLOBAL',
+			mirror=False,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
+
+		bpy.ops.object.transform_apply(
+			location=False,
+			rotation=True,
+			scale=True)
 
 		bpy.context.active_object.modifiers.new("Bevel", 'BEVEL')
 		bpy.context.object.modifiers["Bevel"].width = 0.001
@@ -1593,9 +2369,28 @@ class GA_PT_Tools_RingSquare(bpy.types.Operator):
 
 	def execute(self, context):
 
-		bpy.ops.mesh.primitive_torus_add(location=(0, 0, 0), rotation=(1.5708, 0, 0), major_segments=4, minor_segments=4, major_radius=1, minor_radius=0.4, abso_major_rad=1.25, abso_minor_rad=0.75)
-		bpy.ops.transform.resize(value=(0.05, 0.05, 0.05), orient_type='GLOBAL', mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
-		bpy.ops.object.transform_apply(location=False, rotation=True, scale=True)
+		bpy.ops.mesh.primitive_torus_add(
+			location=(0, 0, 0),
+			rotation=(1.5708, 0, 0),
+			major_segments=4,
+			minor_segments=4,
+			major_radius=1,
+			minor_radius=0.4,
+			abso_major_rad=1.25,
+			abso_minor_rad=0.75)
+
+		bpy.ops.transform.resize(
+			value=(0.05, 0.05, 0.05),
+			orient_type='GLOBAL',
+			mirror=False,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
+
+		bpy.ops.object.transform_apply(
+			location=False,
+			rotation=True,
+			scale=True)
 
 		bpy.context.active_object.modifiers.new("Bevel", 'BEVEL')
 		bpy.context.object.modifiers["Bevel"].width = 0.005
@@ -1623,14 +2418,29 @@ class GA_PT_Tools_Rope(bpy.types.Operator):
 
 	def execute(self, context):
 
-		bpy.ops.mesh.primitive_plane_add(enter_editmode=False, location=(0, 0, 0))
+		bpy.ops.mesh.primitive_plane_add(
+			enter_editmode=False,
+			location=(0, 0, 0))
 
 		bpy.ops.object.mode_set(mode = 'EDIT')
 
 		bpy.ops.mesh.select_mode(type="VERT")
 		bpy.ops.mesh.merge(type='CENTER')
 
-		bpy.ops.transform.translate(value=(-1, 0, 0), orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL', mirror=True, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1, use_proportional_connected=False, use_proportional_projected=False)
+		bpy.ops.transform.translate(
+			value=(-1, 0, 0),
+			orient_type='GLOBAL',
+			orient_matrix=(
+				(1, 0, 0),
+				(0, 1, 0),
+				(0, 0, 1)),
+			orient_matrix_type='GLOBAL',
+			mirror=True,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1,
+			use_proportional_connected=False,
+			use_proportional_projected=False)
 
 		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(-0.707107, 0.292893, 0), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
 		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(-0.292893, 0.707107, 0), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
@@ -1664,7 +2474,36 @@ class GA_PT_Tools_Rope(bpy.types.Operator):
 
 		bpy.ops.mesh.remove_doubles()
 
-		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(0, 0, 4), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, True), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+		bpy.ops.mesh.extrude_region_move(
+			MESH_OT_extrude_region={
+				"use_normal_flip":False,
+				"mirror":False},
+			TRANSFORM_OT_translate={
+				"value":(0, 0, 4),
+				"orient_type":'GLOBAL',
+				"orient_matrix":(
+					(1, 0, 0),
+					(0, 1, 0),
+					(0, 0, 1)),
+				"orient_matrix_type":'GLOBAL',
+				"constraint_axis":(False, False, True),
+				"mirror":False,
+				"use_proportional_edit":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"use_proportional_connected":False,
+				"use_proportional_projected":False,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"cursor_transform":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
 
 		bpy.ops.object.mode_set(mode = 'OBJECT')
 
@@ -1684,7 +2523,20 @@ class GA_PT_Tools_Rope(bpy.types.Operator):
 		bpy.ops.object.modifier_add(type='CURVE')
 		bpy.context.object.modifiers["Curve"].deform_axis = 'POS_Z'
 
-		bpy.ops.transform.resize(value=(0.025, 0.025, 0.025), orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL', mirror=True, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1, use_proportional_connected=False, use_proportional_projected=False)
+		bpy.ops.transform.resize(
+			value=(0.025, 0.025, 0.025),
+			orient_type='GLOBAL',
+			orient_matrix=(
+				(1, 0, 0),
+				(0, 1, 0),
+				(0, 0, 1)),
+			orient_matrix_type='GLOBAL',
+			mirror=True,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1,
+			use_proportional_connected=False,
+			use_proportional_projected=False)
 
 		bpy.ops.object.shade_smooth()
 
@@ -1698,7 +2550,10 @@ class GA_PT_Tools_StrapCircle(bpy.types.Operator):
 
 	def execute(self, context):
 
-		bpy.ops.curve.primitive_bezier_circle_add(enter_editmode=False, location=(0, 0, 0))
+		bpy.ops.curve.primitive_bezier_circle_add(
+			enter_editmode=False,
+			location=(0, 0, 0))
+
 		bpy.context.object.data.resolution_u = 3
 		bpy.context.object.data.fill_mode = 'FULL'
 		bpy.context.object.data.extrude = 0.05
@@ -1706,7 +2561,22 @@ class GA_PT_Tools_StrapCircle(bpy.types.Operator):
 		bpy.context.object.data.bevel_resolution = 1
 
 		bpy.ops.object.mode_set(mode = 'EDIT')
-		bpy.ops.transform.resize(value=(0.25, 0.25, 0.25), orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL', mirror=True, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1, use_proportional_connected=False, use_proportional_projected=False)
+
+		bpy.ops.transform.resize(
+			value=(0.25, 0.25, 0.25),
+			orient_type='GLOBAL',
+			orient_matrix=(
+				(1, 0, 0),
+				(0, 1, 0),
+				(0, 0, 1)),
+			orient_matrix_type='GLOBAL',
+			mirror=True,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1,
+			use_proportional_connected=False,
+			use_proportional_projected=False)
+
 		bpy.ops.curve.handle_type_set(type='ALIGNED')
 		bpy.ops.object.mode_set(mode = 'OBJECT')
 
@@ -1730,10 +2600,24 @@ class GA_PT_Tools_StrapHandle(bpy.types.Operator):
 
 	def execute(self, context):
 
-		bpy.ops.mesh.primitive_cylinder_add(radius=1, depth=2, enter_editmode=False, location=(0, 0, 0))
+		bpy.ops.mesh.primitive_cylinder_add(
+			radius=1,
+			depth=2,
+			enter_editmode=False,
+			location=(0, 0, 0))
 
-		bpy.ops.transform.resize(value=(0.05, 0.05, 0.04), orient_type='GLOBAL', mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
-		bpy.ops.object.transform_apply(location=False, rotation=False, scale=True)
+		bpy.ops.transform.resize(
+			value=(0.05, 0.05, 0.04),
+			orient_type='GLOBAL',
+			mirror=False,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
+
+		bpy.ops.object.transform_apply(
+			location=False,
+			rotation=False,
+			scale=True)
 
 		bpy.context.active_object.modifiers.new("SimpleDeform", 'SIMPLE_DEFORM')
 		bpy.context.object.modifiers["SimpleDeform"].deform_method = 'TAPER'
@@ -1757,12 +2641,53 @@ class GA_PT_Tools_StrapHandle(bpy.types.Operator):
 
 		bpy.context.object.name = "tmpStrap"
 
-		bpy.ops.object.duplicate_move(OBJECT_OT_duplicate={"linked":False, "mode":'TRANSLATION'}, TRANSFORM_OT_translate={"value":(0, 0, 0.07), "constraint_axis":(False, False, True), "orient_type":'GLOBAL', "mirror":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+		bpy.ops.object.duplicate_move(
+			OBJECT_OT_duplicate={
+				"linked":False,
+				"mode":'TRANSLATION'},
+			TRANSFORM_OT_translate={
+				"value":(0, 0, 0.07),
+				"constraint_axis":(False, False, True),
+				"orient_type":'GLOBAL',
+				"mirror":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
+
 		bpy.context.object.modifiers["SimpleDeform"].factor = -0.75
 
 		bpy.ops.object.select_pattern(pattern="tmpStrap")
 
-		bpy.ops.object.duplicate_move(OBJECT_OT_duplicate={"linked":False, "mode":'TRANSLATION'}, TRANSFORM_OT_translate={"value":(0, 0, 0.14), "constraint_axis":(False, False, True), "orient_type":'GLOBAL', "mirror":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+		bpy.ops.object.duplicate_move(
+			OBJECT_OT_duplicate={
+				"linked":False,
+				"mode":'TRANSLATION'},
+			TRANSFORM_OT_translate={
+				"value":(0, 0, 0.14),
+				"constraint_axis":(False, False, True),
+				"orient_type":'GLOBAL',
+				"mirror":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
 
 		bpy.ops.object.select_pattern(pattern="tmpStrap.001")
 		bpy.ops.object.select_pattern(pattern="tmpStrap")
@@ -1787,17 +2712,46 @@ class GA_PT_Tools_StrapLine(bpy.types.Operator):
 
 	def execute(self, context):
 
-		bpy.ops.curve.primitive_nurbs_path_add(radius=1, enter_editmode=False, location=(0.921556, -0.107272, 1))
+		bpy.ops.curve.primitive_nurbs_path_add(
+			radius=1,
+			enter_editmode=False,
+			location=(0.921556, -0.107272, 1))
+
 		bpy.context.object.data.resolution_u = 64
 		bpy.context.object.data.fill_mode = 'FULL'
 		bpy.context.object.data.extrude = 0.1
 		bpy.context.object.data.bevel_depth = 0.02
 
-		bpy.ops.transform.resize(value=(0.5, 0.5, 0.5), orient_type='GLOBAL', mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
-		bpy.ops.object.transform_apply(location=False, rotation=False, scale=True)
+		bpy.ops.transform.resize(
+			value=(0.5, 0.5, 0.5),
+			orient_type='GLOBAL',
+			mirror=False,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
+
+		bpy.ops.object.transform_apply(
+			location=False,
+			rotation=False,
+			scale=True)
 
 		bpy.ops.object.mode_set(mode = 'EDIT')
-		bpy.ops.transform.resize(value=(0.5, 0.5, 0.5), orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL', mirror=True, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1, use_proportional_connected=False, use_proportional_projected=False)
+
+		bpy.ops.transform.resize(
+			value=(0.5, 0.5, 0.5),
+			orient_type='GLOBAL',
+			orient_matrix=(
+				(1, 0, 0),
+				(0, 1, 0),
+				(0, 0, 1)),
+			orient_matrix_type='GLOBAL',
+			mirror=True,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1,
+			use_proportional_connected=False,
+			use_proportional_projected=False)
+
 		bpy.ops.object.mode_set(mode = 'OBJECT')
 
 		bpy.ops.object.origin_set(type='ORIGIN_CURSOR')
@@ -1817,7 +2771,10 @@ class GA_PT_Tools_Axe(bpy.types.Operator):
 
 		#Deformer
 
-		bpy.ops.object.add(type='LATTICE', enter_editmode=False, location=(0, 0, 0.375))
+		bpy.ops.object.add(
+			type='LATTICE',
+			enter_editmode=False,
+			location=(0, 0, 0.375))
 
 		bpy.context.object.data.points_w = 4
 
@@ -1829,10 +2786,24 @@ class GA_PT_Tools_Axe(bpy.types.Operator):
 
 		# Strap
 
-		bpy.ops.mesh.primitive_cylinder_add(radius=1, depth=2, enter_editmode=False, location=(0, 0, 0))
+		bpy.ops.mesh.primitive_cylinder_add(
+			radius=1,
+			depth=2,
+			enter_editmode=False,
+			location=(0, 0, 0))
 
-		bpy.ops.transform.resize(value=(0.05, 0.05, 0.04), orient_type='GLOBAL', mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
-		bpy.ops.object.transform_apply(location=False, rotation=False, scale=True)
+		bpy.ops.transform.resize(
+			value=(0.05, 0.05, 0.04),
+			orient_type='GLOBAL',
+			mirror=False,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
+
+		bpy.ops.object.transform_apply(
+			location=False,
+			rotation=False,
+			scale=True)
 
 		bpy.context.active_object.modifiers.new("SimpleDeform", 'SIMPLE_DEFORM')
 		bpy.context.object.modifiers["SimpleDeform"].deform_method = 'TAPER'
@@ -1856,12 +2827,53 @@ class GA_PT_Tools_Axe(bpy.types.Operator):
 
 		bpy.context.object.name = "StrapAxe"
 
-		bpy.ops.object.duplicate_move(OBJECT_OT_duplicate={"linked":False, "mode":'TRANSLATION'}, TRANSFORM_OT_translate={"value":(0, 0, 0.07), "constraint_axis":(False, False, True), "orient_type":'GLOBAL', "mirror":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+		bpy.ops.object.duplicate_move(
+			OBJECT_OT_duplicate={
+				"linked":False,
+				"mode":'TRANSLATION'},
+			TRANSFORM_OT_translate={
+				"value":(0, 0, 0.07),
+				"constraint_axis":(False, False, True),
+				"orient_type":'GLOBAL',
+				"mirror":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
+
 		bpy.context.object.modifiers["SimpleDeform"].factor = -0.75
 
 		bpy.ops.object.select_pattern(pattern="StrapAxe")
 
-		bpy.ops.object.duplicate_move(OBJECT_OT_duplicate={"linked":False, "mode":'TRANSLATION'}, TRANSFORM_OT_translate={"value":(0, 0, 0.14), "constraint_axis":(False, False, True), "orient_type":'GLOBAL', "mirror":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+		bpy.ops.object.duplicate_move(
+			OBJECT_OT_duplicate={
+				"linked":False,
+				"mode":'TRANSLATION'},
+			TRANSFORM_OT_translate={
+				"value":(0, 0, 0.14),
+				"constraint_axis":(False, False, True),
+				"orient_type":'GLOBAL',
+				"mirror":False,
+				"proportional_edit_falloff":'SMOOTH',
+				"proportional_size":1,
+				"snap":False,
+				"snap_target":'CLOSEST',
+				"snap_point":(0, 0, 0),
+				"snap_align":False,
+				"snap_normal":(0, 0, 0),
+				"gpencil_strokes":False,
+				"texture_space":False,
+				"remove_on_cancel":False,
+				"release_confirm":False,
+				"use_accurate":False})
 
 		bpy.ops.object.select_pattern(pattern="StrapAxe.001")
 		bpy.ops.object.select_pattern(pattern="StrapAxe")
@@ -1874,21 +2886,40 @@ class GA_PT_Tools_Axe(bpy.types.Operator):
 
 		# Main
 
-		bpy.ops.mesh.primitive_cylinder_add(enter_editmode=False, location=(0, 0, 0.375))
+		bpy.ops.mesh.primitive_cylinder_add(
+			enter_editmode=False,
+			location=(0, 0, 0.375))
 
-		bpy.ops.transform.resize(value=(0.04, 0.04, 0.5), orient_type='GLOBAL', mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
+		bpy.ops.transform.resize(
+			value=(0.04, 0.04, 0.5),
+			orient_type='GLOBAL',
+			mirror=False,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
 
 		bpy.context.object.name = "AxeBase"
 
-		bpy.ops.mesh.primitive_cylinder_add(enter_editmode=False, location=(0, 0, 0.818853))
+		bpy.ops.mesh.primitive_cylinder_add(
+			enter_editmode=False,
+			location=(0, 0, 0.818853))
 
-		bpy.ops.transform.resize(value=(0.055, 0.055, 0.025), orient_type='GLOBAL', mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1)
+		bpy.ops.transform.resize(
+			value=(0.055, 0.055, 0.025),
+			orient_type='GLOBAL',
+			mirror=False,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1)
 
 		bpy.ops.object.select_pattern(pattern="AxeBase")
 		bpy.ops.object.join()
 
 
-		bpy.ops.object.transform_apply(location=False, rotation=False, scale=True)
+		bpy.ops.object.transform_apply(
+			location=False,
+			rotation=False,
+			scale=True)
 
 		bpy.context.active_object.modifiers.new("Bevel", 'BEVEL')
 		bpy.context.object.modifiers["Bevel"].limit_method = 'ANGLE'
@@ -1913,7 +2944,9 @@ class GA_PT_Tools_Axe(bpy.types.Operator):
 
 		#AxeBlade
 
-		bpy.ops.mesh.primitive_plane_add(enter_editmode=False, location=(0, -0.269897, 0.9255))
+		bpy.ops.mesh.primitive_plane_add(
+			enter_editmode=False,
+			location=(0, -0.269897, 0.9255))
 
 		bpy.ops.object.mode_set(mode = 'EDIT')
 
@@ -1979,15 +3012,35 @@ class GA_PT_Tools_Shield(bpy.types.Operator):
 
 	def execute(self, context):
 
-		bpy.ops.mesh.primitive_circle_add(vertices=16, enter_editmode=False, location=(0, 0, 0))
+		bpy.ops.mesh.primitive_circle_add(
+			vertices=16,
+			enter_editmode=False,
+			location=(0, 0, 0))
 
-		bpy.ops.transform.rotate(value=-1.5708, orient_axis='Z', orient_type='VIEW', orient_matrix=((-4.93038e-32, -1, -2.22045e-16), (-2.22045e-16, -4.93038e-32, -1), (-1, -2.22045e-16, -4.93038e-32)), orient_matrix_type='VIEW', mirror=True, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1, use_proportional_connected=False, use_proportional_projected=False)
+		bpy.ops.transform.rotate(
+			value=-1.5708,
+			orient_axis='Z',
+			orient_type='VIEW',
+			orient_matrix=(
+				(-4.93038e-32, -1, -2.22045e-16),
+				(-2.22045e-16, -4.93038e-32, -1),
+				(-1, -2.22045e-16, -4.93038e-32)),
+			orient_matrix_type='VIEW',
+			mirror=True,
+			use_proportional_edit=False,
+			proportional_edit_falloff='SMOOTH',
+			proportional_size=1,
+			use_proportional_connected=False,
+			use_proportional_projected=False)
 
 		bpy.context.object.scale[0] = 0.335
 		bpy.context.object.scale[1] = 0.333
 		bpy.context.object.scale[2] = 0.335
 
-		bpy.ops.object.transform_apply(location=False, rotation=True, scale=True)
+		bpy.ops.object.transform_apply(
+			location=False,
+			rotation=True,
+			scale=True)
 
 		bpy.ops.object.mode_set(mode = 'EDIT')
 
@@ -2038,33 +3091,54 @@ class GA_PT_Tools_Shoulder(bpy.types.Operator):
 
 	def execute(self, context):
 
-		bpy.ops.mesh.primitive_plane_add(size=2, enter_editmode=False, location=(0, 0, 0))
+		bpy.ops.mesh.primitive_plane_add(
+			size=2,
+			enter_editmode=False,
+			location=(0, 0, 0))
+
 		bpy.ops.object.mode_set(mode = 'EDIT')
 		bpy.ops.mesh.select_mode(type="VERT")
 		bpy.ops.mesh.select_all(action = 'SELECT')
 		bpy.ops.mesh.merge(type='CENTER')
 
 		bpy.ops.transform.translate(value=(-0.0826497, -1.94363e-09, 0.0772539), orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL', mirror=True, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1, use_proportional_connected=False, use_proportional_projected=False)
+
 		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(0.0623267, 2.22045e-16, -0.0235535), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+
 		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(0.0928321, 0, -0.0398878), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+
 		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(0.056581, 0, -0.0449664), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+
 		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(0.025281, 0, -0.0269958), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+
 		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(-0.0493649, -0.0814961, 0.0125206), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+
 		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(-0.0156111, 0.0162923, 0.0268505), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+
 		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(-0.030259, 0.0219638, 0.0338485), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+
 		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(-0.0694205, -0.0227891, 0.0259963), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
+
 		bpy.ops.mesh.extrude_region_move(MESH_OT_extrude_region={"use_normal_flip":False, "mirror":False}, TRANSFORM_OT_translate={"value":(-0.0826899, 0.000881597, 0.0211338), "orient_type":'GLOBAL', "orient_matrix":((1, 0, 0), (0, 1, 0), (0, 0, 1)), "orient_matrix_type":'GLOBAL', "constraint_axis":(False, False, False), "mirror":False, "use_proportional_edit":False, "proportional_edit_falloff":'SMOOTH', "proportional_size":1, "use_proportional_connected":False, "use_proportional_projected":False, "snap":False, "snap_target":'CLOSEST', "snap_point":(0, 0, 0), "snap_align":False, "snap_normal":(0, 0, 0), "gpencil_strokes":False, "cursor_transform":False, "texture_space":False, "remove_on_cancel":False, "release_confirm":False, "use_accurate":False})
 
 		bpy.ops.mesh.select_all(action = 'SELECT')
 		bpy.ops.mesh.edge_face_add()
-		bpy.ops.mesh.quads_convert_to_tris(quad_method='BEAUTY', ngon_method='BEAUTY')
+
+		bpy.ops.mesh.quads_convert_to_tris(
+			quad_method='BEAUTY',
+			ngon_method='BEAUTY')
+
 		bpy.ops.mesh.tris_convert_to_quads()
 
 		bpy.ops.object.mode_set(mode = 'OBJECT')
 
 		bpy.context.object.name = "tmpPart1"
 
-		bpy.ops.mesh.primitive_plane_add(size=2, enter_editmode=False, location=(0, 0, 0))
+		bpy.ops.mesh.primitive_plane_add(
+			size=2,
+			enter_editmode=False,
+			location=(0, 0, 0))
+
 		bpy.ops.object.mode_set(mode = 'EDIT')
 		bpy.ops.mesh.select_mode(type="VERT")
 		bpy.ops.mesh.select_all(action = 'SELECT')
@@ -2079,14 +3153,22 @@ class GA_PT_Tools_Shoulder(bpy.types.Operator):
 
 		bpy.ops.mesh.select_all(action = 'SELECT')
 		bpy.ops.mesh.edge_face_add()
-		bpy.ops.mesh.quads_convert_to_tris(quad_method='BEAUTY', ngon_method='BEAUTY')
+
+		bpy.ops.mesh.quads_convert_to_tris(
+			quad_method='BEAUTY',
+			ngon_method='BEAUTY')
+
 		bpy.ops.mesh.tris_convert_to_quads()
 
 		bpy.ops.object.mode_set(mode = 'OBJECT')
 
 		bpy.context.object.name = "tmpPart2"
 
-		bpy.ops.mesh.primitive_plane_add(size=2, enter_editmode=False, location=(0, 0, 0))
+		bpy.ops.mesh.primitive_plane_add(
+			size=2,
+			enter_editmode=False,
+			location=(0, 0, 0))
+
 		bpy.ops.object.mode_set(mode = 'EDIT')
 		bpy.ops.mesh.select_mode(type="VERT")
 		bpy.ops.mesh.select_all(action = 'SELECT')
