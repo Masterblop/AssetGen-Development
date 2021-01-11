@@ -243,7 +243,6 @@ class GA_Start(bpy.types.Operator):
 					"Mirror"].use_bisect_axis[0] = True
 
 				bpy.ops.object.modifier_apply(
-					apply_as='DATA',
 					modifier="Mirror")
 
 			if myscene.ga_ontheground == 1:
@@ -388,7 +387,6 @@ class GA_Start(bpy.types.Operator):
 					'TRIANGULATE')
 
 				bpy.ops.object.modifier_apply(
-					apply_as='DATA',
 					modifier="Triangulate")
 
 				bpy.context.object.modifiers[
@@ -407,7 +405,6 @@ class GA_Start(bpy.types.Operator):
 				print("\nDecimation1")
 
 			bpy.ops.object.modifier_apply(
-				apply_as='DATA',
 				modifier="Decimate")
 
 			if remove_inside == 1:
@@ -509,7 +506,6 @@ class GA_Start(bpy.types.Operator):
 					'TRIANGULATE')
 
 				bpy.ops.object.modifier_apply(
-					apply_as='DATA',
 					modifier="Triangulate")
 
 				bpy.context.object.modifiers[
@@ -530,7 +526,6 @@ class GA_Start(bpy.types.Operator):
 				print("\nDecimation2")
 
 			bpy.ops.object.modifier_apply(
-				apply_as='DATA',
 				modifier="Decimate")
 
 			if unfold_half == 1:
@@ -585,7 +580,6 @@ class GA_Start(bpy.types.Operator):
 					'MIRROR')
 
 				bpy.ops.object.modifier_apply(
-					apply_as='DATA',
 					modifier="Mirror")
 
 
@@ -1263,7 +1257,6 @@ class GA_Start(bpy.types.Operator):
 				"Decimate"].use_collapse_triangulate = True
 
 			bpy.ops.object.modifier_apply(
-				apply_as='DATA',
 				modifier="Decimate")
 
 			bpy.context.object.name = "SM_" + name + "_LOD1"
@@ -1323,7 +1316,6 @@ class GA_Start(bpy.types.Operator):
 				"Decimate"].use_collapse_triangulate = True
 
 			bpy.ops.object.modifier_apply(
-				apply_as='DATA',
 				modifier="Decimate")
 
 			bpy.context.object.name = "SM_" + name + "_LOD2"
@@ -1383,7 +1375,6 @@ class GA_Start(bpy.types.Operator):
 				"Decimate"].use_collapse_triangulate = True
 
 			bpy.ops.object.modifier_apply(
-				apply_as='DATA',
 				modifier="Decimate")
 
 			bpy.context.object.name = "SM_" + name + "_LOD3"
