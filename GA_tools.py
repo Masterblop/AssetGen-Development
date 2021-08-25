@@ -143,7 +143,6 @@ class GA_PT_Tools_ResymX(bpy.types.Operator):
 				"Mirror"].use_bisect_axis[0] = True
 
 			bpy.ops.object.modifier_apply(
-				apply_as='DATA',
 				modifier="Mirror")
 
 		return {'FINISHED'}
@@ -341,7 +340,6 @@ class GA_PT_Tools_Subsurf(bpy.types.Operator):
 			relative=False)
 
 		bpy.ops.object.modifier_apply(
-			apply_as='DATA',
 			modifier="Subdivision")
 
 		return {'FINISHED'}
@@ -366,7 +364,6 @@ class GA_PT_Tools_Optimize(bpy.types.Operator):
 			bpy.context.object.modifiers["Decimate"].ratio = 0.7
 
 			bpy.ops.object.modifier_apply(
-				apply_as='DATA',
 				modifier="Decimate")
 
 		return {'FINISHED'}
@@ -662,7 +659,6 @@ class GA_PT_Tools_BoltCubic(bpy.types.Operator):
 			'MIRROR')
 
 		bpy.ops.object.modifier_apply(
-			apply_as='DATA',
 			modifier="Mirror")
 
 
@@ -931,7 +927,6 @@ class GA_PT_Tools_ChainHexagon(bpy.types.Operator):
 		bpy.context.object.modifiers["Mirror"].use_clip = True
 
 		bpy.ops.object.modifier_apply(
-			apply_as='DATA',
 			modifier="Mirror")
 
 		bpy.ops.object.mode_set(
@@ -1126,7 +1121,6 @@ class GA_PT_Tools_ChainSquare(bpy.types.Operator):
 			scale=True)
 
 		bpy.ops.object.modifier_apply(
-			apply_as='DATA',
 			modifier="Mirror")
 
 		bpy.ops.object.origin_set(
@@ -1921,7 +1915,7 @@ class GA_PT_Tools_Crack(bpy.types.Operator):
 
 		bpy.context.active_object.modifiers.new("Mirror", 'MIRROR')
 		bpy.context.object.modifiers["Mirror"].use_axis[1] = True
-		bpy.ops.object.modifier_apply(apply_as='DATA', modifier="Mirror")
+		bpy.ops.object.modifier_apply(modifier="Mirror")
 
 		bpy.ops.object.mode_set(mode = 'EDIT')
 		bpy.ops.mesh.select_all(action = 'DESELECT')
@@ -1996,7 +1990,7 @@ class GA_PT_Tools_Crack(bpy.types.Operator):
 
 		bpy.context.active_object.modifiers.new("Subdivision", 'SUBSURF')
 		bpy.context.object.modifiers["Subdivision"].levels = 2
-		bpy.ops.object.modifier_apply(apply_as='DATA', modifier="Subdivision")
+		bpy.ops.object.modifier_apply(modifier="Subdivision")
 
 		bpy.ops.transform.resize(
 			value=(2, 2, 5),
