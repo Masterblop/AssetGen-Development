@@ -579,6 +579,7 @@ class GA_Start(bpy.types.Operator):
 ##################################################################### Unfold UVs
 
 			if unfold_half == 1:
+				bpy.ops.object.mode_set(mode = 'OBJECT')
 				bpy.context.active_object.modifiers.new(
 					"Mirror",
 					'MIRROR')
