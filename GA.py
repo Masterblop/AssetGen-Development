@@ -565,11 +565,15 @@ class GA_Start(bpy.types.Operator):
 			bpy.ops.mesh.remove_doubles()
 			bpy.ops.mesh.delete_loose()
 			bpy.ops.mesh.select_all(action = 'SELECT')
-			bpy.ops.object.mode_set(mode = 'OBJECT')
+			
 
 			bpy.ops.uv.smart_project(
-				angle_limit=uv_angle,
-				island_margin=uv_margin)
+				angle_limit=1.15192, 
+				island_margin=0.0, 
+				area_weight=0.0, 
+				correct_aspect=True, 
+				scale_to_bounds=False)
+
 
 
 ##################################################################### Unfold UVs
@@ -586,8 +590,10 @@ class GA_Start(bpy.types.Operator):
 ####################################################################### SmoothLP
 
 			if smoothLP == 1:
+				bpy.ops.object.mode_set(mode = 'OBJECT')
 				bpy.ops.object.shade_smooth()
 			else:
+				bpy.ops.object.mode_set(mode = 'OBJECT')
 				bpy.ops.object.shade_flat()
 
 
