@@ -75,6 +75,9 @@ class GA_Start(bpy.types.Operator):
 		if myscene.ga_textureX == '4K':
 			size[0] = 4096
 
+		if myscene.ga_textureX == '8K':
+			size[0] = 8192
+
 		if myscene.ga_textureY == '256':
 			size[1] = 256
 
@@ -90,6 +93,8 @@ class GA_Start(bpy.types.Operator):
 		if myscene.ga_textureY == '4K':
 			size[1] = 4096
 
+		if myscene.ga_textureY == '8K':
+			size[1] = 8192
 
 		LOD0 = myscene.ga_LOD0
 		LOD1 = myscene.ga_LOD1

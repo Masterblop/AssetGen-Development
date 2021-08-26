@@ -67,7 +67,8 @@ class GA_Props(bpy.types.PropertyGroup):
                ('512', '512', '512 px resolution'),
                ('1K', '1K', '1K px resolution'),
                ('2K', '2K', '2K px resolution'),
-               ('4K', '4K', '4K px resolution')],
+               ('4K', '4K', '4K px resolution'),
+               ('8K', '8K', '8K px resolution')],
         description="Choose the texture resolution in X (width)",
         default='512'
    )
@@ -77,7 +78,8 @@ class GA_Props(bpy.types.PropertyGroup):
                ('512', '512', '512 px resolution'),
                ('1K', '1K', '1K px resolution'),
                ('2K', '2K', '2K px resolution'),
-               ('4K', '4K', '4K px resolution')],
+               ('4K', '4K', '4K px resolution'),
+               ('8K', '8K', '8K px resolution')],
         description="Choose the texture resolution in Y (height)",
         default='512'
    )
